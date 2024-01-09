@@ -3,7 +3,7 @@ import {toast} from 'react-toastify'
 import { useRouter } from "next/router";
 
 const FronteraContext = createContext();
-
+// Hola
 function FronteraProvider({children}) {
 
     const [categorias, setCategorias] = useState([]);
